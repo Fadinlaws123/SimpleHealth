@@ -1,38 +1,93 @@
-# ❓ About SimpleHealth
+<div align="center">
 
-- _SimpleHealth allows players in-game to give themselves health and armor, but also makes it so vehicle crashing comes with a price. Rather than htiting vehicles at high speeds and not having issues, this script makes it so anything above 100MPH will kill the player and also cause their screen to blackout. However, not only that but when they are driving slower but still speeding (65+) they will still take damage if they crash into a wall, or another vehicle._
+# ❤️ SimpleHealth
 
-# ❓ How to install SimpleHealth
+### A standalone FiveM health, armor, and vehicle-crash damage utility.
 
-- _Just like any other resource, SimpleHealth is easy to install, and configure to your likings. 1st things first, download the latest release from github and open the file._
-- _If the folder has `-main` at the end, edit the folder name to remove the extension part to make sure the script works as intended._
-- _Drag and drop the files from whatever you used to extract them, whether it was 7.zip or WinRar and put the files in your `\resources` directory._
-- _Restart your server and everything should work as intended._
+<p>
+  <a href="https://simpledevelopments.org/store"><img src="https://img.shields.io/badge/Explore_Our_Store-5865F2?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://discord.gg/RquDVTfDwu"><img src="https://img.shields.io/badge/Join_Our_Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
+  <a href="https://github.com/Fadinlaws123/SimpleHealth"><img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-# ⚙️ Configuring SimpleHealth
+<p>
+  <img src="https://img.shields.io/badge/FiveM-Standalone-FF6B35?style=flat-square&logo=fivem&logoColor=white" />
+  <img src="https://img.shields.io/badge/Permissions-ACE-238636?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Release_Ready-238636?style=flat-square" />
+  <img src="https://img.shields.io/github/stars/Fadinlaws123/SimpleHealth?style=flat-square&logo=github&label=Stars" />
+</p>
 
-- _Now that you installed SimpleHealth, you're going to want to configure some of the options that come with the script! To do so, all you have to do is open the Config.lua file and anything there is available to be either turned off, or edited in someway._
+</div>
 
-# ⌨️ Script Commands
+---
 
-- _/health - Set your character's health with the following options below:_
-  - 25
-  - 50
-  - 75
-  - 100
-- _/die - Causes your player to commit suicide._
-- _/armor - Set your character's health with the following options below:_
-  - 25
-  - 50
-  - 75
-  - 100
-- _/removeArmor - Removes all armor that your player has on._
+## 📖 About
 
-# 🔧 Ace Permission Groups
+**SimpleHealth** adds configurable health and armor commands while making high-speed vehicle crashes more dangerous.
 
-- **Health System Permissions:** add_ace group.staff health.allowed allow
-- **Armor System Permissions:** add_ace group.staff armor.allowed allow
+Players can be given controlled access to health and armor commands through ACE permissions, while the crash system adds consequences for major collisions at higher speeds.
 
-# ❗ Script Version
+---
 
-- _1.0.0_
+## ✨ Features
+
+- Configurable health command
+- Configurable armor command
+- Remove armor command
+- Player death command
+- High-speed crash damage
+- Severe crash behavior at extreme speeds
+- ACE permission support
+- Standalone with no framework dependency
+
+---
+
+## 🎮 Commands
+
+| Command | Description |
+| --- | --- |
+| `/health` | Sets the player's health using the supported values. |
+| `/armor` | Sets the player's armor using the supported values. |
+| `/removeArmor` | Removes the player's armor. |
+| `/die` | Kills the player's character. |
+
+The health and armor systems support preset values of `25`, `50`, `75`, and `100`.
+
+---
+
+## 🔐 ACE Permissions
+
+```cfg
+add_ace group.staff health.allowed allow
+add_ace group.staff armor.allowed allow
+```
+
+---
+
+## 📥 Installation
+
+1. Place `SimpleHealth` in your server's resources directory.
+2. Configure the resource to match your server.
+3. Add the resource to your `server.cfg`.
+4. Add any ACE permissions you want to use.
+5. Restart the resource or server.
+
+---
+
+## 📋 Requirements
+
+- FiveM server
+- No framework required
+- No database required
+
+---
+
+## 🌐 SimpleDevelopments
+
+SimpleHealth is developed and maintained by **SimpleDevelopments**.
+
+<div align="center">
+
+### Keep it Simple. Keep it SimpleDevelopments.
+
+</div>
